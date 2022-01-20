@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: pypilot 0.24\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-09-18 00:31-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2022-01-20 HO:MI+ZONE\n"
+"Last-Translator: Leif-Ivar Myklebust <leif.ivar.myklebust@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "advarsel: kunne ikke gjøre autopilotprosessen i sanntid"
 
 #: pypilot/autopilot.py:337
 msgid "server/client is running too _slowly_"
-msgstr "server / klient kjører også _slowly_"
+msgstr "stor forsinkelse fra server/klient "
 
 #: pypilot/autopilot.py:343
 msgid "sensors is running too _slowly_"
@@ -49,7 +49,7 @@ msgstr "sensorene går for sakte"
 
 #: pypilot/autopilot.py:420
 msgid "autopilot routine is running too _slowly_"
-msgstr "autopilotrutinen går for sakte"
+msgstr "autopilot-rutinen går for sakte"
 
 #: pypilot/autopilot.py:429
 msgid "servo is running too _slowly_"
@@ -81,7 +81,7 @@ msgstr "laget imu-prosessen i sanntid"
 
 #: pypilot/boatimu.py:140
 msgid "setting initial gyro bias"
-msgstr "sette innledende gyro bias"
+msgstr "setter innledende gyro bias"
 
 #: pypilot/boatimu.py:156
 msgid "imu process failed to keep time"
@@ -105,7 +105,7 @@ msgstr "kompass utenfor rekkevidde, tilbakestilles"
 
 #: pypilot/boatimu.py:307
 msgid "warning, failed to make calibration process other"
-msgstr "advarsel, klarte ikke å gjøre kalibreringsprosessen annen"
+msgstr "advarsel, klarte ikke å gjøre kalibreringsprosessen"
 
 #: pypilot/boatimu.py:309
 msgid "warning, failed to make calibration process idle, trying renice"
@@ -123,11 +123,11 @@ msgstr "kalibrering lastet, starter"
 
 #: pypilot/boatimu.py:322
 msgid "failed import calibration fit"
-msgstr "mislykket importkalibreringstilpasning"
+msgstr "mislykket import, kalibreringstilpasning"
 
 #: pypilot/boatimu.py:439
 msgid "accel values invalid"
-msgstr "accel-verdiene er ugyldige"
+msgstr "akselerometer-verdiene er ugyldige"
 
 #: pypilot/bufferedsocket.py:55
 msgid "overflow in pypilot udp socket"
@@ -155,16 +155,16 @@ msgstr "stikkontaktfeil"
 
 #: pypilot/bufferedsocket.py:99
 msgid "pypilot socket exception"
-msgstr "unntak for pypilotuttak"
+msgstr "unntak for pypilot tilkobling"
 
 #: pypilot/bufferedsocket.py:103
 msgid "falling back to python nonblocking socket, will consume more cpu"
 msgstr ""
-"faller tilbake til python ikke-blokkerende stikkontakt, vil forbruke mer CPU"
+"faller tilbake til python ikke-blokkerende kontakt, vil forbruke mer CPU"
 
 #: pypilot/bufferedsocket.py:129
 msgid "socket send error in server flush"
-msgstr "socket sende feil i serveren flush"
+msgstr "feil i sending av data"
 
 #: pypilot/bufferedsocket.py:144
 msgid "error receiving data"
@@ -202,7 +202,7 @@ msgstr "advarsel, har pypilot-klienten allerede tilkobling"
 
 #: pypilot/client.py:311
 msgid "connect failed to"
-msgstr "koble mislyktes i"
+msgstr "tilkobling mislyktes"
 
 #: pypilot/client.py:403
 msgid "failed to connect to"
@@ -214,15 +214,15 @@ msgstr "bruk"
 
 #: pypilot/client.py:463
 msgid "set the host or ip address"
-msgstr "angi verten eller ip-adressen"
+msgstr "angi vert eller ip-adresse"
 
 #: pypilot/client.py:464
 msgid "print info about each value type"
-msgstr "skrive ut info om hver verditype"
+msgstr "skriv ut info om hver verditype"
 
 #: pypilot/client.py:465
 msgid "continuous watch"
-msgstr "kontinuerlig klokke"
+msgstr "kontinuerlig overvåking"
 
 #: pypilot/client.py:466
 msgid "show this message"
@@ -487,7 +487,7 @@ msgstr "kunne ikke registrere enheten"
 
 #: pypilot/server.py:96
 msgid "ERROR no connections in watch"
-msgstr "FEIL ingen tilkoblinger i klokken"
+msgstr "FEIL, ingen tilkoblinger i klokken"
 
 #: pypilot/server.py:199
 msgid "remove duplicate udp connection"
@@ -503,7 +503,7 @@ msgstr "kunne ikke laste"
 
 #: pypilot/server.py:358
 msgid "backup data failed as well"
-msgstr "sikkerhetskopieringsdata mislyktes også"
+msgstr "backup data mislyktes også"
 
 #: pypilot/server.py:386
 msgid "failed to write"
@@ -515,7 +515,7 @@ msgstr "pypilot_server: bind mislyktes; kjører du allerede en server?"
 
 #: pypilot/server.py:505
 msgid "persistent store took too long!"
-msgstr "vedvarende butikk tok for lang tid!"
+msgstr "lagring tok for lang tid!"
 
 #: pypilot/server.py:521
 msgid "max connections reached"
@@ -603,7 +603,7 @@ msgstr "server tapt"
 
 #: pypilot/signalk.py:118
 msgid "service add"
-msgstr "tjenestetillegg"
+msgstr "legg til tjeneste"
 
 #: pypilot/signalk.py:132
 msgid "server found"
@@ -675,7 +675,7 @@ msgstr "klarte ikke å analysere meldingen:"
 
 #: pypilot/values.py:130
 msgid "invalid initial value for range property"
-msgstr "ugyldig opprinnelig verdi for områdeegenskap"
+msgstr "ugyldig startverdi"
 
 #: pypilot/values.py:179
 msgid "invalid set"
@@ -695,11 +695,11 @@ msgstr "advarsel: ubehandlet melding"
 
 #: ui/autopilot_control_ui.py:24
 msgid "Autopilot Control"
-msgstr "Autopilotkontroll"
+msgstr "Autopilot-kontroll"
 
 #: ui/autopilot_control_ui.py:39
 msgid "AP"
-msgstr "Du"
+msgstr "AP"
 
 #: ui/autopilot_control_ui.py:57 ui/autopilot_control_ui.py:67
 #: ui/autopilot_control_ui.py:460 ui/autopilot_control_ui.py:737
@@ -720,7 +720,7 @@ msgstr "Ikke relevant"
 
 #: ui/autopilot_control_ui.py:121
 msgid "port"
-msgstr "havn"
+msgstr "babord"
 
 #: ui/autopilot_control_ui.py:121
 msgid "starboard"
@@ -744,7 +744,7 @@ msgstr "Vind"
 
 #: ui/autopilot_control_ui.py:159
 msgid "True Wind"
-msgstr "Ekte vind"
+msgstr "Sann vind"
 
 #: ui/autopilot_control_ui.py:175 ui/scope_ui.py:76
 msgid "Center"
@@ -785,7 +785,7 @@ msgstr "Justering"
 
 #: ui/autopilot_control_ui.py:399
 msgid "Heading"
-msgstr "Overskrift"
+msgstr "Kurs"
 
 #: ui/autopilot_control_ui.py:404 ui/autopilot_control_ui.py:470
 #: ui/autopilot_control_ui.py:480
@@ -798,7 +798,7 @@ msgstr "Offset"
 
 #: ui/autopilot_control_ui.py:423
 msgid "Coords"
-msgstr "Koordiner"
+msgstr "Koordinater"
 
 #: ui/autopilot_control_ui.py:425
 msgid "Sea"
@@ -814,15 +814,15 @@ msgstr "omfang"
 
 #: ui/autopilot_control_ui.py:455
 msgid "Pitch"
-msgstr "Tonehøyde"
+msgstr "Trim"
 
 #: ui/autopilot_control_ui.py:465
 msgid "Roll"
-msgstr "Rull"
+msgstr "Rulling"
 
 #: ui/autopilot_control_ui.py:475
 msgid "Heel"
-msgstr "Hæl"
+msgstr "Krengning"
 
 #: ui/autopilot_control_ui.py:502
 msgid "alignment"
@@ -834,7 +834,7 @@ msgstr "Kalibreringsalder"
 
 #: ui/autopilot_control_ui.py:561 ui/autopilot_control_ui.py:681
 msgid "Clear"
-msgstr "Klar"
+msgstr "Slett"
 
 #: ui/autopilot_control_ui.py:564 ui/autopilot_control_ui.py:684
 msgid "calibration locked"
@@ -842,11 +842,11 @@ msgstr "kalibrering låst"
 
 #: ui/autopilot_control_ui.py:587
 msgid "accel"
-msgstr "accelere"
+msgstr "akselerometer"
 
 #: ui/autopilot_control_ui.py:618
 msgid "Sigma Points"
-msgstr "Sigma poeng"
+msgstr "Sigma punkter"
 
 #: ui/autopilot_control_ui.py:625
 msgid "local history"
@@ -888,7 +888,7 @@ msgstr "------"
 
 #: ui/autopilot_control_ui.py:770
 msgid "Rudder is Starboard Range"
-msgstr "Ror er styrbord"
+msgstr "Ror er fullt styrbord"
 
 #: ui/autopilot_control_ui.py:773
 msgid "Scale"
@@ -896,7 +896,7 @@ msgstr "Skala"
 
 #: ui/autopilot_control_ui.py:783
 msgid "Rudder is Port Range"
-msgstr "Ror er havneserie"
+msgstr "Ror er fullt babord"
 
 #: ui/autopilot_control_ui.py:786
 msgid "Non Linearity"
@@ -924,11 +924,11 @@ msgstr "mislyktes i å laste inn pywavefront:"
 
 #: ui/boatplot.py:55
 msgid "invalid display dimensions"
-msgstr "ugyldige dimensjoner"
+msgstr "ugyldige størrelser"
 
 #: ui/boatplot.py:110
 msgid "Did you add the pypilot_data repository?"
-msgstr "Har du lagt til pypilot_data-depotet?"
+msgstr "Har du lagt til pypilot_data repository?"
 
 #: ui/boatplot.py:160
 msgid "not found, texture compass cannot be used"
@@ -936,7 +936,7 @@ msgstr "ikke funnet, teksturkompass kan ikke brukes"
 
 #: ui/client_wx.py:47
 msgid "Refresh"
-msgstr "Forfriske"
+msgstr "Oppdater"
 
 #: ui/client_wx.py:189
 msgid "Connected"
@@ -948,7 +948,7 @@ msgstr "Frakoblet"
 
 #: ui/client_wx.py:218
 msgid "warning, invalid choice value specified"
-msgstr "advarsel, ugyldig valgverdi spesifisert"
+msgstr "advarsel, ugyldig verdi spesifisert"
 
 #: ui/scope_ui.py:24
 msgid "pypilot Scope"
